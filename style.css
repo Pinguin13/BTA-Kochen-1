@@ -70,6 +70,11 @@ ul{
   border-radius: 4px;
 }
 
+.button:hover{
+  color:  #fff;
+  background: #374a67
+}
+
 @media (min-width: 960px) {
   #main-navigation{
     display: block;
