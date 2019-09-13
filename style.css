@@ -68,6 +68,9 @@ ul{
   padding: 1rem;
   text-transform: uppercase;
   border-radius: 4px;
+  transition: all .4s ease;
+  margin-top: 1rem;
+  display: inline-block;
 }
 
 .button:hover{
