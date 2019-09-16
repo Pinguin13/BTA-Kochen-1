@@ -78,6 +78,43 @@ ul{
   background: #374a67
 }
 
+.card{
+text-align: center;
+border: 1px solid #828282;
+box-shadow: 0px 4px 6px 0px rgba(0,0,0,1);
+border-radius: 15px;
+overflow: hidden;
+margin: 0,5 rem;
+
+
+}
+
+.card img{
+  width: 100%;
+}
+
+.card a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+.card p a{
+color: #828282;
+}
+
+.card .button{
+  background: #374a67;
+  color: #fff;
+
+.card .button:hover{
+  background: #fff;
+  color: #374a67
+  border-color: #374a67;
+
+}
+
+}
 @media (min-width: 960px) {
   #main-navigation{
     display: block;
@@ -106,5 +143,9 @@ ul{
   nav a:hover{
     color: #596e7a;
     background: #d6e344;
+  }
+
+  .row{
+    display: flex;
   }
   }
